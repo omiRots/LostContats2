@@ -18,6 +18,23 @@
 		2650E058176751B900036E17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2650E057176751B900036E17 /* Default-568h@2x.png */; };
 		2650E05B176751B900036E17 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2650E059176751B900036E17 /* MainStoryboard.storyboard */; };
 		2650E05E176751B900036E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E05D176751B900036E17 /* ViewController.m */; };
+		2650E065176755BA00036E17 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = 2650E064176755BA00036E17 /* sync.png */; };
+		2650E06A1767579400036E17 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E0691767579400036E17 /* ContactsTableViewController.m */; };
+		2650E06D17675A9F00036E17 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E06C17675A9F00036E17 /* Contact.m */; };
+		2650E07017675AE100036E17 /* OpenedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650E06F17675AE100036E17 /* OpenedViewController.m */; };
+		2650E07217675DF300036E17 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E07117675DF300036E17 /* MessageUI.framework */; };
+		2650E07417675E0D00036E17 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650E07317675E0D00036E17 /* AddressBook.framework */; };
+		26DF3D9E1769FC74007DBBA7 /* Contacts30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3D9A1769FC74007DBBA7 /* Contacts30x30.png */; };
+		26DF3D9F1769FC74007DBBA7 /* Home30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3D9B1769FC74007DBBA7 /* Home30x30.png */; };
+		26DF3DA01769FC74007DBBA7 /* Settings30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3D9C1769FC74007DBBA7 /* Settings30x30.png */; };
+		26DF3DA11769FC74007DBBA7 /* Sync30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3D9D1769FC74007DBBA7 /* Sync30x30.png */; };
+		26DF3DA31769FD09007DBBA7 /* CellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DA21769FD09007DBBA7 /* CellBackground.png */; };
+		26DF3DA61769FD18007DBBA7 /* LostContactsLogo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DA41769FD18007DBBA7 /* LostContactsLogo57x57.png */; };
+		26DF3DA71769FD18007DBBA7 /* LostContactsLogo114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DA51769FD18007DBBA7 /* LostContactsLogo114x114.png */; };
+		26DF3DA91769FDFA007DBBA7 /* LostContactsLogo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DA81769FDFA007DBBA7 /* LostContactsLogo57x57.png */; };
+		26DF3DAB1769FE00007DBBA7 /* LostContactsLogo114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DAA1769FE00007DBBA7 /* LostContactsLogo114x114.png */; };
+		26DF3DAD176A006A007DBBA7 /* Harabara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DAC1769FFAB007DBBA7 /* Harabara.ttf */; };
+		26DF3DAF176A01AB007DBBA7 /* Colleged.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26DF3DAE176A0189007DBBA7 /* Colleged.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +54,26 @@
 		2650E05A176751B900036E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2650E05C176751B900036E17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2650E05D176751B900036E17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2650E064176755BA00036E17 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		2650E0681767579400036E17 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsTableViewController.h; path = ../ContactsTableViewController.h; sourceTree = "<group>"; };
+		2650E0691767579400036E17 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsTableViewController.m; path = ../ContactsTableViewController.m; sourceTree = "<group>"; };
+		2650E06B17675A9F00036E17 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = LostContats2/Contact.h; sourceTree = "<group>"; };
+		2650E06C17675A9F00036E17 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = LostContats2/Contact.m; sourceTree = "<group>"; };
+		2650E06E17675AE100036E17 /* OpenedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenedViewController.h; sourceTree = "<group>"; };
+		2650E06F17675AE100036E17 /* OpenedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenedViewController.m; sourceTree = "<group>"; };
+		2650E07117675DF300036E17 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2650E07317675E0D00036E17 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		26DF3D9A1769FC74007DBBA7 /* Contacts30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts30x30.png; sourceTree = "<group>"; };
+		26DF3D9B1769FC74007DBBA7 /* Home30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home30x30.png; sourceTree = "<group>"; };
+		26DF3D9C1769FC74007DBBA7 /* Settings30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings30x30.png; sourceTree = "<group>"; };
+		26DF3D9D1769FC74007DBBA7 /* Sync30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sync30x30.png; sourceTree = "<group>"; };
+		26DF3DA21769FD09007DBBA7 /* CellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackground.png; sourceTree = "<group>"; };
+		26DF3DA41769FD18007DBBA7 /* LostContactsLogo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LostContactsLogo57x57.png; sourceTree = "<group>"; };
+		26DF3DA51769FD18007DBBA7 /* LostContactsLogo114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LostContactsLogo114x114.png; sourceTree = "<group>"; };
+		26DF3DA81769FDFA007DBBA7 /* LostContactsLogo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LostContactsLogo57x57.png; sourceTree = "<group>"; };
+		26DF3DAA1769FE00007DBBA7 /* LostContactsLogo114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LostContactsLogo114x114.png; sourceTree = "<group>"; };
+		26DF3DAC1769FFAB007DBBA7 /* Harabara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Harabara.ttf; sourceTree = "<group>"; };
+		26DF3DAE176A0189007DBBA7 /* Colleged.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Colleged.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2650E07417675E0D00036E17 /* AddressBook.framework in Frameworks */,
+				2650E07217675DF300036E17 /* MessageUI.framework in Frameworks */,
 				2650E042176751B900036E17 /* UIKit.framework in Frameworks */,
 				2650E044176751B900036E17 /* Foundation.framework in Frameworks */,
 				2650E046176751B900036E17 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +95,12 @@
 		2650E035176751B900036E17 = {
 			isa = PBXGroup;
 			children = (
+				26DF3DAA1769FE00007DBBA7 /* LostContactsLogo114x114.png */,
+				26DF3DA81769FDFA007DBBA7 /* LostContactsLogo57x57.png */,
+				2650E06B17675A9F00036E17 /* Contact.h */,
+				2650E06C17675A9F00036E17 /* Contact.m */,
+				26DF3DAC1769FFAB007DBBA7 /* Harabara.ttf */,
+				26DF3DAE176A0189007DBBA7 /* Colleged.ttf */,
 				2650E047176751B900036E17 /* LostContats2 */,
 				2650E040176751B900036E17 /* Frameworks */,
 				2650E03F176751B900036E17 /* Products */,
@@ -73,6 +118,8 @@
 		2650E040176751B900036E17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2650E07317675E0D00036E17 /* AddressBook.framework */,
+				2650E07117675DF300036E17 /* MessageUI.framework */,
 				2650E041176751B900036E17 /* UIKit.framework */,
 				2650E043176751B900036E17 /* Foundation.framework */,
 				2650E045176751B900036E17 /* CoreGraphics.framework */,
@@ -88,6 +135,12 @@
 				2650E059176751B900036E17 /* MainStoryboard.storyboard */,
 				2650E05C176751B900036E17 /* ViewController.h */,
 				2650E05D176751B900036E17 /* ViewController.m */,
+				2650E0681767579400036E17 /* ContactsTableViewController.h */,
+				2650E0691767579400036E17 /* ContactsTableViewController.m */,
+				2650E06E17675AE100036E17 /* OpenedViewController.h */,
+				2650E06F17675AE100036E17 /* OpenedViewController.m */,
+				2650E064176755BA00036E17 /* sync.png */,
+				2650E0751769F87700036E17 /* images */,
 				2650E048176751B900036E17 /* Supporting Files */,
 			);
 			path = LostContats2;
@@ -105,6 +158,20 @@
 				2650E057176751B900036E17 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2650E0751769F87700036E17 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				26DF3DA41769FD18007DBBA7 /* LostContactsLogo57x57.png */,
+				26DF3DA51769FD18007DBBA7 /* LostContactsLogo114x114.png */,
+				26DF3DA21769FD09007DBBA7 /* CellBackground.png */,
+				26DF3D9A1769FC74007DBBA7 /* Contacts30x30.png */,
+				26DF3D9B1769FC74007DBBA7 /* Home30x30.png */,
+				26DF3D9C1769FC74007DBBA7 /* Settings30x30.png */,
+				26DF3D9D1769FC74007DBBA7 /* Sync30x30.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +225,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DF3DAF176A01AB007DBBA7 /* Colleged.ttf in Resources */,
+				26DF3DAD176A006A007DBBA7 /* Harabara.ttf in Resources */,
 				2650E04C176751B900036E17 /* InfoPlist.strings in Resources */,
 				2650E054176751B900036E17 /* Default.png in Resources */,
 				2650E056176751B900036E17 /* Default@2x.png in Resources */,
 				2650E058176751B900036E17 /* Default-568h@2x.png in Resources */,
 				2650E05B176751B900036E17 /* MainStoryboard.storyboard in Resources */,
+				2650E065176755BA00036E17 /* sync.png in Resources */,
+				26DF3D9E1769FC74007DBBA7 /* Contacts30x30.png in Resources */,
+				26DF3D9F1769FC74007DBBA7 /* Home30x30.png in Resources */,
+				26DF3DA01769FC74007DBBA7 /* Settings30x30.png in Resources */,
+				26DF3DA11769FC74007DBBA7 /* Sync30x30.png in Resources */,
+				26DF3DA31769FD09007DBBA7 /* CellBackground.png in Resources */,
+				26DF3DA61769FD18007DBBA7 /* LostContactsLogo57x57.png in Resources */,
+				26DF3DA71769FD18007DBBA7 /* LostContactsLogo114x114.png in Resources */,
+				26DF3DA91769FDFA007DBBA7 /* LostContactsLogo57x57.png in Resources */,
+				26DF3DAB1769FE00007DBBA7 /* LostContactsLogo114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +255,9 @@
 				2650E04E176751B900036E17 /* main.m in Sources */,
 				2650E052176751B900036E17 /* AppDelegate.m in Sources */,
 				2650E05E176751B900036E17 /* ViewController.m in Sources */,
+				2650E06A1767579400036E17 /* ContactsTableViewController.m in Sources */,
+				2650E06D17675A9F00036E17 /* Contact.m in Sources */,
+				2650E07017675AE100036E17 /* OpenedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +380,7 @@
 				2650E063176751B900036E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
