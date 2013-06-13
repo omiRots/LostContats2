@@ -24,7 +24,7 @@
 
 
 {
-    Contact *Bendod Ata CONTACT!!!
+    Contact *BendodAtaCONTACT;
     Contact *selectedContact;
 }
 
